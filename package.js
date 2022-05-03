@@ -1,12 +1,12 @@
 Package.describe({
   summary: 'Login service for Intranet 42 accounts',
   version: '1.5.0',
-  name: 'chap:accounts-intra42',
-  git: 'https://github.com/marcchapeau/meteor-accounts-intra42'
+  name: 'nimon:accounts-intra42',
+  git: 'https://github.com/Nimon77/meteor-accounts-intra42'
 })
 
 Package.onUse(function (api) {
-  api.versionsFrom('1.4.3')
+  api.versionsFrom('2.2')
   api.use('ecmascript')
   api.use('accounts-base', ['client', 'server'])
   // Export Accounts (etc) to packages using this one.
