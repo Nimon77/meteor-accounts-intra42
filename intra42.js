@@ -1,6 +1,6 @@
 import { Accounts } from 'meteor/accounts-base'
 import { Meteor } from 'meteor/meteor'
-import { Intra42 } from 'meteor/chap:intra42-oauth'
+import { Intra42 } from 'meteor/nimon:intra42-oauth'
 
 Accounts.oauth.registerService('intra42')
 
